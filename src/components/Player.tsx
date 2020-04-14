@@ -46,7 +46,7 @@ class Player extends React.Component<Props, State> {
       <div className="Player">
         <div className="Player__video-container">
           <ReactPlayer
-            url="/example-video.mp4"
+            url="https://drive.google.com/uc?id=1XWzNXCgl_G5TYUhbgqG_rXhbz6Zisjw-&authuser=0&export=download"
             controls
             autoPlay
             ref={this.player}
