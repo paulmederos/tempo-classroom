@@ -24,7 +24,6 @@ class Player extends React.Component<Props, State> {
 
   handleVideoPlaying(progress: { playedSeconds: number; } ){
     if (progress.playedSeconds) {
-      let secondsPlayed = progress.playedSeconds
       let formattedTime = new Date(progress.playedSeconds * 1000).toISOString().substr(15, 4)
       let note = notes.filter(item => item.time.includes(formattedTime))[0]
 
