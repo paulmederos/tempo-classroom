@@ -39,5 +39,7 @@
   }
 
 .Classroom__content {
-  flex-grow: 3;
+  flex: 1 auto;
+  display: flex;
+  flex-direction: column;
 }
