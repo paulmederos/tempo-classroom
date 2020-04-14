@@ -1,6 +1,6 @@
-import React from 'react';
-import Player from './Player';
-import './Classroom.css';
+import React from 'react'
+import Player from './Player'
+import './Classroom.css'
 
 function Classroom() {
   return (
@@ -16,7 +16,7 @@ function Classroom() {
         <Player />
       </div>
     </div>
-  );
+  )
 }
 
-export default Classroom;
+export default Classroom
