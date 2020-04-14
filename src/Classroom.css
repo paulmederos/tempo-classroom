@@ -1,0 +1,43 @@
+.Classroom {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.TopNav {
+  background-color: #000;
+}
+
+.TopNav__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  padding: 1em;
+}
+
+.TopNav__link {
+  border: none;
+  padding: 1em;
+  font-size: 1rem;
+  width: 100%;
+  cursor: pointer;
+  background-color: #000;
+  color: white;
+  border-radius: 4px;
+}
+
+  .TopNav__link:hover {
+    background-color: #111;
+    text-decoration: underline;
+  }
+
+  .TopNav__link.isSelected {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+.Classroom__content {
+  flex-grow: 3;
+}
