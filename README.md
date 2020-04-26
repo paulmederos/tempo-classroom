@@ -1,44 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tempo Classroom
 
-## Available Scripts
+Per David, I'm updating README here with some context that I sent in an email when I originally submitted this for review on April 14th (same day you sent it over.)
 
-In the project directory, you can run:
+PDF says attach as ZIP, but Gmail is giving me shit for attaching a ZIP that has certain file extensions inside, so here's a link to the GH repo: https://github.com/paulmederos/tempo-classroom (yes, it's public for now, I'll take it down / make it private if you prefer.)
 
-### `yarn start`
+Few notes:
+- Made with CRA, so pull the repo down, nvm into node 13.3, get that `yarn install` off, then `yarn start` should get you up and running. Happy to deploy somewhere static if that's easier.
+- Tried to keep it as close to 2hrs as possible, so there's a lot left undone (especially around UX) that normally I'd polish—but hey—this is supposed to be a conversation starter 😊 
+- Can't wait to chat -- there's always so many little decisions, and the guiding philosophies/principles that direct those decisions.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Let me know if this works, or if just one glance at the code is enough for you to toss me on the "never hire" list 😂  I'm relatively booked until Friday, so happy to schedule a chat then, or early next week.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+✌️,
+Paul
